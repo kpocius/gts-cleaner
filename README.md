@@ -25,9 +25,9 @@ A script to delete old posts on your GoToSocial server, helping keep your Fedive
 1.	Configure your access credentials and parameters in the config.json file:
    ```json
    {
-      "server_url": "https://your-server.social",
-      "access_token": "your-access-token",
-      "delete_older_than_days": 30
+   "server_url": "https://your-server.social",
+   "access_token": "your-access-token",
+   "delete_older_than_days": 30
    }
    ```
 2. Run the script

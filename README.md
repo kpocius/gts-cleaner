@@ -11,7 +11,7 @@ A script to delete old posts on your GoToSocial server, helping keep your Fedive
 ## Requirements  
 
 - Python 3.7 or higher.  
-- API access to your GoToSocial server with appropriate permissions.  
+- [API access to your GoToSocial server](https://docs.gotosocial.org/en/latest/api/authentication) with appropriate permissions.  
 
 ## Installation  
 

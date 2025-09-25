@@ -2,7 +2,7 @@
 
 A script to delete old posts on your GoToSocial server, helping keep your Fediverse clean and efficient.  
 
-## Acknolwedgement & warning
+## Acknowledgement & WARNING
 
 The script is forked from [xurxia/gts-cleaner](https://github.com/xurxia/gts-cleaner) and heavily vibe-coded. Use at your own risk!
 

@@ -1,0 +1,13 @@
+{
+  "error_file_not_found": "File not found.",
+  "getting_statuses": "Getting statuses...",
+  "found_statuses": "Found {count} statuses.",
+  "status_deleted": "Status {status_id} deleted successfully.",
+  "error_deleting_status": "Error deleting status {status_id}: {code}",
+  "dryrun_would_delete": "[Dry Run] Would delete status {status_id}: {url}",
+  "nothing_to_delete": "There are no statuses to delete.",
+  "dryrun_count": "[Dry Run] {count} statuses would be deleted.",
+  "deleted_count": "{count} statuses were deleted.",
+  "dryrun_would_delete_url": "[Dry Run] Would delete {url}",
+  "deleted_url": "Deleted {url}"
+}

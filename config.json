@@ -1,5 +1,7 @@
 {
+   "language": "en",
    "server_url": "https://your-server.social",
    "access_token": "your-access-token",
-   "delete_older_than_days": 30
+   "delete_older_than_days": 30,
+   "dryrun": true
 }

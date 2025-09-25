@@ -1,0 +1,13 @@
+{
+  "error_file_not_found": "Archivo no encontrado.",
+  "getting_statuses": "Obteniendo estados...",
+  "found_statuses": "Se han encontrado {count} estados.",
+  "status_deleted": "Estado {status_id} eliminado correctamente.",
+  "error_deleting_status": "Error al eliminar el estado {status_id}: {code}",
+  "dryrun_would_delete": "[Simulación] Se eliminaría el estado {status_id}: {url}",
+  "nothing_to_delete": "No hay estados para eliminar.",
+  "dryrun_count": "[Simulación] Se eliminarían {count} estados.",
+  "deleted_count": "Se eliminaron {count} estados.",
+  "dryrun_would_delete_url": "[Simulación] Se eliminaría {url}",
+  "deleted_url": "Eliminado {url}"
+}

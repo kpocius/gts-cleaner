@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 def load_locale(language):
@@ -96,7 +96,9 @@ def delete_status(base_url, headers, status_id):
 def is_old_and_not_pinned_or_bookmarked(status, days_old):
     # Determine if a status is old, not pinned, and not bookmarked.
     created_at = datetime.strptime(status["created_at"], "%Y-%m-%dT%H:%M:%S.%fZ")
-    if (datetime.utcnow() - created_at).days > days_old:
+    created_at = created_at.replace(tzinfo=timezone.utc)
+    now_utc = datetime.now(timezone.utc)
+    if (now_utc - created_at).days > days_old:
         if not status.get("pinned", False) and not status.get("bookmarked", False):
             return True
     return False
